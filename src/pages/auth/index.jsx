@@ -20,6 +20,7 @@ export const Auth = () =>{
             isAuth:true,
 
         };
+
         localStorage.setItem("auth",JSON.stringify(authInfo));
         navigate("/expense-track");
  

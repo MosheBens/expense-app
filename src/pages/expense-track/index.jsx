@@ -65,7 +65,7 @@ export const ExpenseTracker  = () =>{
         <div className="expense-track">
             <div className="container mt-4" style={{marginLeft:"10%"}}>
                 <h1> {name}'s Expense Track</h1>
-                <div className="balance">
+                <div className="balance"> 
                     <h3> Your Balance</h3>
                     {balance >= 0 ? (
                         <h2> ${balance} </h2>) : <h2> -${balance * -1} </h2>
